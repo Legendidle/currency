@@ -1,0 +1,47 @@
+.intro{
+  width: 600px;
+  margin: 0 auto;
+}
+.intro__title{
+  text-align: center;
+}
+.intro__ticket{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro__museum{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro__hotel{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro__form{
+  width: 400px;
+  margin: 0 auto;
+}
+.intro__select{
+  border: 0px;
+  border-radius: 10px;
+  background-color: tomato;
+  color: aquamarine;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+label{
+  width: 100%;
+}
+.intro__input{
+  width: 100%;
+}
+.intro__btn{
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+}

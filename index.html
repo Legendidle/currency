@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Exchange</title>
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <div class="container-md">
+        <div class="intro__inner">
+          
+          <h1 class="intro__title text-danger mb-5">Welcome to our travelling company!!!</h1>
+
+          <p class="intro__ticket mb-1">
+            Payment for ticket is 1000$
+          </p>
+
+          <p class="intro__museum mb-1">
+            Payment for the museum is 200€
+          </p>
+
+          <p class="intro__hotel mb-1">
+            Payment for the hotel is 10000 rub
+          </p>
+
+          <form class="intro__form" method="get">
+            <select class="intro__select mb-3 p-2" aria-label="Default select example">
+              <option selected>Please, select type of currinsy</option>
+  
+              <option class="dollar" value="10800">Ticket</option>
+              
+              <option class="euro" value="11600">Museum</option>
+              
+              <option class="ruble" value="190">Hotel</option>
+            </select>
+            
+            <label class="mb-2">
+              <input class="intro__input" type="text" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            </label>
+
+            <button type="submit" class="intro__btn btn btn-primary">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
